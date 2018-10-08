@@ -1,0 +1,256 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background: url(../img/spark-bg.png);
+	background-repeat: repeat;
+	background-size: 300px 200px;
+	height: 100%;
+}
+.head-top{
+	padding-top: 150px;
+	height: 100%;
+}
+.nav-box{
+	width: 100%;
+	background: #2c2c2c;
+	color: white;
+	font-size: 14px;
+	margin-bottom: 50px;
+	/*height: 80px;*/
+}
+.nav-box .navbar-header .navbar-brand{
+	font-weight: 400;
+	padding: 0;
+	margin: 15px 15px;
+}
+.nav-box .navbar-right>li>a{
+	color: white;
+	margin: 15px;
+}
+.nav-box .navbar-right>li>a:hover{
+	color: rgba(2555,255,255,0.5);
+}
+@media (max-width: 767px){
+.nav-box .navbar-right>li>a{
+	text-align: center;
+	margin: 20px 0;
+}
+.nav-box .navbar-right>li{
+	margin: 20px 0;
+}
+}
+.current-box{
+	/*width: 200px;*/
+	/*height: 200px;*/
+	/*background: pink;*/
+	border: 1px solid #d3e0e9;
+	border-radius: 10px;
+	background: white;
+/*	margin: 0 auto;*/
+}
+.current-head{
+	font-size: 26px;
+	background-color: #e0ffff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom: 1px solid #d3e0e9;
+	margin-bottom: 20px;
+}
+.current-head>p{
+	margin-top: 5px;
+	/*margin: 20px 0;*/
+	color: #5ec0d5;
+}
+.label-1{
+	text-align: right;
+	color: #636b6f;
+}
+.form-group{
+	margin-right: -15px;
+	width: 100%;
+	line-height: 34px;
+
+}
+.font-contral{
+	width: 100%;
+	height: 34px;
+	padding: 4px 16px;
+	border-radius: 4px;
+	border: 1px solid #ccd0d2;
+	outline: none;
+	/*border-radius: 4px; box-shadow: inset 0 1px 1px rgba(0,0,0,.075);*/
+}
+.form-group .btn{
+	/*width: 100%;*/
+	background-color: #5bbfd4;
+	color: white;
+	border-radius: 10px;
+}
+.form-group .btn:hover{
+	color: white;
+}
+.current-mid a{
+	color: #5bbfd4;
+	font-size: 18px;
+	margin-left: 5px;
+	text-decoration: underline;
+}
+@media (min-width: 992px){
+	.col-md-offset-3 {
+	    margin-left: 20%;
+	}
+}
+@media (max-width: 991px){
+	.label-1{
+	text-align: left;
+	}
+}
+@media (min-width: 678px){
+	.navbar {
+	    border-bottom: 1px solid white;
+	}
+}
+@media (max-width: 677px){
+	.label-1{
+	text-align: left;
+	}
+	.check{
+		text-align: left;
+	}
+}
+.e-mail-box{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	width: 60px;
+	height:54px;
+	border-radius: 50%;
+	background: #2c2c46;
+	position: fixed;
+}
+a.link-register{
+	text-decoration: none;
+	color: #5ec0d5;
+	font-size: 16px;
+}
+a.link-register:hover{
+	text-decoration: underline;
+}
+
+.message-box{
+	width: 300px;
+	height: 500px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	position: fixed;
+	/*background: pink;*/
+	border-radius: 10px;
+	display: none;
+	/*cursor: pointer;*/
+}
+.message-head{
+	width: 100%;
+	background: #2b2c46;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.title-left{
+	display: inline-block;
+	margin: 10px;
+	color: white;
+	float: left;
+}
+.close-right{
+	float: right;
+	margin: 10px;
+	margin-right: 20px;
+	color: white;
+	cursor: pointer;
+}
+.message-section{
+	height: 400px;
+	width: 100%;
+	background: white;
+	position: relative;
+}
+.blank{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	/*background: pink;*/
+	text-align: center;
+	padding-top: 100px;
+}
+.blank p{
+	max-width: 200px;
+	text-align: center;
+	margin: 10px auto;
+	color: #96aab4;
+}
+.section-bottom{
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+}
+.section-bottom svg:hover{
+	opacity: 1;
+}
+.message-foot{
+	width: 100%;
+	background: white;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	border-top: 1px solid #e6ebea;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-sizing: border-box;
+	position: relative;
+}
+.message-foot textarea{
+	height: 20px;
+	resize: none;
+	outline: none;
+	border: none;
+	line-height: 20px;
+	width: 100%;
+	padding-right: 75px;
+	padding-left: 20px;
+	font-size: 16px;
+	color: #98acb5;
+	/*display: inline-block;*/
+	
+}
+.input-button-emjoy{
+	border: none;
+	outline: none;
+	position: absolute;
+	display: inline-block;
+    bottom: 25px;
+    right: 55px;
+    margin-right: 10px;
+    margin-right: 10px;
+	background-color: transparent;	
+	cursor: pointer;
+}
+.input-button-emjoy:hover svg{
+	transform: scale(1.5);
+}
+.input-button-send{
+	border: none;
+	outline: none;
+	position: absolute;
+	display: inline-block;
+    bottom: 25px;
+    right: 25px;
+    margin-right: 10px;
+	background-color: transparent;	
+	cursor: pointer;
+}
+.input-button-send:hover svg{
+	transform: scale(1.5);
+}
