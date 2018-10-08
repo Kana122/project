@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的购物车</title>
+		<link rel="icon" href="../img/mushroom.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="../css/cssreset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/style1.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/mycart.css"/>
+		<link rel="stylesheet" href="../css/style2.css" />
+	</head>
+	<body>
+			<!--顶部内容-->
+		<header class="header-top">
+			<!--导航栏-->
+			<div class="wrap">
+				<a href="../index.html" class="header-logo" target="_blank">
+					<!--<img src="img/pic.png"/>-->蘑菇街首页
+				</a>
+				
+				<ul class="head">
+					<li><a href="#" class="head-list1-ueser" target="_blank">用户名</a><div class="head-low1"></li>
+					<li><a href="#" class="head-list1-ueser1" target="_blank">消息</a></li>
+					<li><a href="#" class="head-list1-ueser1" target="_blank">我的收藏</a><div class="head-low1"></li>
+					<li><a href="#" class="head-list2" target="_blank">我的订单</a></li>
+					<li class="list3"><a href="#" class="head-list3" target="_blank">购物车<span style="color: red;">1</span>件</a>
+						<div class="list3_mycart">
+							<div class="list3_mycart_content">
+								<img src="../img/mycart4.jpg"  />
+									<p class="list3_1"><a href="#" class="a1">正品Chanel/香奈儿粉色邂逅</a></p>
+									<p class="list3_2" style="color:#9999ae">规格：50ML粉 香味/颜色:树</p>
+									<span class="list3_3">￥588</span>		
+									
+									<span class="list3_4">
+										<a href="#"  style="color:#9999ae;">删除</a>
+									</span>		
+							</div>
+							<button><a href="#" style="color: white;" class="a1">查看购物车</a></button>
+						</div>
+					</li>
+					<li class="head_li1"><a href="#" class="head-list4" target="_blank">客户服务</a><div class="head-low1"></div>
+						<ul class="head-left">
+							<li><a href="#" target="_blank">消费者服务</a></li>
+							<li><a href="#" target="_blank">商家服务</a></li>
+							<li><a href="#" target="_blank">规则中心</a></li>
+						</ul>
+					</li>
+					<li class="head_li2">
+						<a href="#" class="head-list5" target="_blank">商家后台</a><div class="head-low2"></div>
+						<ul class="head-right">
+							<li><a href="#" target="_blank">管理后台</a></li>
+							<li><a href="#" target="_blank">商家社区</a></li>
+							<li><a href="#" target="_blank">商家培训</a></li>
+							<li><a href="#" target="_blank">市场入驻</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!--头部内容-->
+			<div class="header-mid-mycart">
+				<!--头部logo-->
+				<div class="header-mid-current">
+					<div class="logo_mycart">
+						<img src="../img/logo.png" class="logo_img_mycart"/>
+						<div class="mycart_process">
+							<div class="process1">
+								<span style="color: #fff;margin-left: 6px">1</span>
+							</div>
+							<div class="process2">
+								<span style="color: #fff;margin-left:  74px;">2</span>
+								<span style="color: #fff;margin-left:  144px;">3</span>
+								<span style="color: #fff;margin-left:  134px;vertical-align: middle;">
+									<img src="../img/mycart3.png" />
+								</span>
+								
+							</div>
+							<ul class="process3">
+								<li style="color:#f46;">购物车</li>
+								<li>确认订单</li>
+								<li>支付</li>
+								<li>完成</li>
+							</ul>
+						</div>
+					</div>					
+			</div>
+		</header>
+		<!--右侧导航栏-->
+		<nav class="nav-right">
+			<ul class="nav-right-list">
+				<li><a href="#" class="nav-right-list1">
+					<img src="../img/my.png" alt=""/>
+				</a></li>
+				<li class="one"><a href="#" class="nav-right-list2"><div class="i-scon"></div>购物车</a></li>
+				<li class="one"><a href="#" class="nav-right-list3"><div class="i-scon1"></div>优惠券</a></li>
+				<li class="one"><a href="#" class="nav-right-list4"><div class="i-scon2"></div>钱包</a></li>
+				<li class="one"><a href="#" class="nav-right-list5"><div class="i-scon3"></div>足迹</a></li>
+				<li><a href="#" class="nav-right-list6"></a></li>
+				<li></li>
+				<li><a href="#" class="nav-right-list7"></a></li>
+			</ul>
+		</nav>
+		<section>
+			<div class="middle">
+				<ul class="middle1">
+					<li style="border-bottom: 3px solid #f57;color:#f57;">全部商品&nbsp;1</li>
+					<li style="cursor: not-allowed;">优惠&nbsp;0</li>
+					<li style="cursor: not-allowed;">库存紧张&nbsp;0</li>
+				</ul>
+				<table>
+					<thead>
+						<tr>
+							<th class="cart_head1">
+								<input type="checkbox"  name="check"/>&nbsp;<span class="selected" style="cursor: pointer;">全选</span>
+							</th>
+							<th class="cart_head2"></th>
+							<th  class="cart_head3">商品信息</th>
+							<th class="cart_head4">单价（元）</th>
+							<th class="cart_head5">数量</th>
+							<th class="cart_head6">小计（元）</th>
+							<th class="cart_head7">操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td colspan="7" class="shopid">
+								<input type="checkbox" style="margin: 5px;" / >
+								<span style="font-weight: bold;">可奈雅小店</span>
+							<span>&nbsp;&nbsp;<img src="../img/cart.gif">&nbsp;&nbsp;</span>
+							<p style="display: inline-block;"><span style="width: 5px; height:5px;background: red;margin: 3px;display: inline-block;"></span>满99元减5</p>
+							<span style="background:url(../img/sele1.png) no-repeat right center;display: inline-block;border-radius:3px;text-align:center;width: 62px;height: 24px;color:#f56;line-height:24px;margin: 0 5px;border: 1px solid #f56;">优惠券</span>
+							<span>去店铺凑单&nbsp;></span>
+							</td>
+						</tr>
+						<tr class="shop_content">
+							<td class="shop_content1">
+								<input type="checkbox" />
+								
+						</td>
+							<td class="shop_content2">
+								<img src="../img/cart.jpg" width="80px"/ style="border: 1px solid #e5e5e5;">
+								<p style="display: inline-block;font-size:14px;vertical-align: top;">正品Chanel/香奈儿粉色邂逅持久淡香清新女士香水 50ml一瓶</p>
+							</td>
+							<td class="shop_content3" style="vertical-align: top; padding-top: 27px;color: #666;text-align: left;">
+								<p>规格：50ML粉</p>
+								<p>香味/颜色：树木香调</p>
+							</td>
+							<td class="shop_content4">
+								588.00
+							</td>
+							<td class="shop_content1 num">
+								<span class="cart_reduce"></span>
+								<input type="text" style="width: 45px;vertical-align: top;height: 25px;text-align: center;" value="1" />
+								<span class="cart_add"></span>
+							</td>
+							<td class="shop_content5" >
+								588.00
+							</td>
+							<td class="shop_content6">删除</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				<div class="cartall">
+					<input type="checkbox"  name="check"/>
+				<ul class="cartall1">
+						<li style="margin-left: 20px; cursor: pointer" class="selected">全选</li>
+						<li class="delete" style="cursor: pointer;">删除</li>
+						<li>清空失效商品</li>
+						<li>移入收藏夹</li>
+					</ul>
+				<div class="cartall_right">
+					<p style="display: inline-block;vertical-align:top;width: 126px;height: 50px;line-height: 50px;">共有<span class="goodnums" style="color: #f56;">&nbsp;0&nbsp;</span>件商品，总计：</p>
+					<p style="display: inline-block;vertical-align:top;width:133px;height:50px;font-weight:bold;font-size: 26px;color: #ff5777;;">￥<span class="priceall">0.00</span></p>
+					<span class="paypic"></span>
+				</div>
+				</div>	
+			</div>			
+	</section>
+			
+		<!--页脚-->
+		<footer style="margin-top: 30px;">
+			<div class="footer-head">
+				<dl>
+					<dt>-新手帮助-</dt>
+					<dd><a href="#">常见问题</a></dd>
+					<dd><a href="#">自助服务</a></dd>
+					<dd><a href="#">联系客服</a></dd>
+					<dd><a href="#">意见反馈</a></dd>
+				</dl>
+				
+				<dl>
+					<dt>-权益保障-</dt>
+					<dd><a href="#">全国包邮</a></dd>
+					<dd><a href="#">七天无理由发货</a></dd>
+					<dd><a href="#">退货运费补贴</a></dd>
+					<dd><a href="#">限时发货</a></dd>
+				</dl>
+				<dl>
+					<dt>-支付方式-</dt>
+					<dd><a href="#">微信支付</a></dd>
+					<dd><a href="#">支付宝支付</a></dd>
+					<dd><a href="#">白付美支付</a></dd>	
+				</dl>
+				<dl>
+					<dt>-移动客户端下载-</dt>
+					<dd><a href="#">蘑菇街</a></dd>
+					<dd><a href="#">美丽说</a></dd>
+					<dd><a href="#">uni引力</a></dd>
+				</dl>
+			</div>
+			<div class="footer-bottom">
+				<ul>
+					<li><a href="">关于我们</a></li>
+					<li><a href="">招聘信息</a></li>
+					<li><a href="">联系我们</a></li>
+					<li><a href="">商家入驻</a></li>
+					<li><a href="">商家后台</a></li>
+					<li><a href="">蘑菇商学院</a></li>
+					<li><a href="">商家社区</a></li>
+					<li><a href="">规则中心</a></li>
+					<li><a href="">有害信息举报</a></li>
+				</ul>
+				<p>©2018 Mogujie.com 杭州卷瓜网络有限公司</p>
+				<p>
+					<span>营业执照：</span>
+					<a href="#">913301065526808764</a>
+					<b>|</b>
+					<span>网络文化经营许可证：</span>
+					<a href="#">浙网文（2016）0349-219号</a>
+					<b>|</b>
+					<span>增值电信业务经营许可证：</span>
+					<a href="#">浙B2-20110349</a>
+					<b>|</b>
+					<span>安全责任书</span>
+					<b>|</b>
+					<span>浙公网安备 33010602002329号</span>
+					<b>|</b>
+					<span>互联网药品信息服务资格证书编号：（浙)-经营性-2018-0002</span>
+					<b>|</b>
+					<span>浙网食A33010003</span>
+					<b>|</b>
+					<span>出版物网络交易平台服务经营备案证</span>
+					<b>|</b>
+					<span>（浙）网械平台备字[2018]第00006号</span>
+					<b>|</b>
+				</p>
+			</div>
+		</footer>
+		<script type="text/javascript" src="../js/jquery-3.2.1.min.js" ></script>
+		<script src="../js/mycart.js"></script>	
+		<script src="../js/style1.js"></script>
+	</body>
+</html>
