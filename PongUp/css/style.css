@@ -110,7 +110,7 @@ h2 {
 	content: '';
 	position: absolute;
 	width: 100%;
-	border-bottom: 4px solid #3D5AFE;
+	border-bottom: 5px solid #3D5AFE;
 	transform: rotate(-10deg);
 	right: 0;
 	top: 50%;
